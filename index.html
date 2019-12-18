@@ -1,0 +1,127 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/h<ml; charset=utf-8" />
+<!--keywords about my website for  -->
+<meta name="keywords" content="apple,Mobiles,Mac,Iphone,IPhoneX,IphoneX,Iphone-X">
+
+
+<!--window name -->
+<title>Apple</title>
+<!--window icon -->
+<link rel="shortcut icon" type="image/x-icon" href="images/apple.png" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+ 
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+<!-- div that contain the menu -->
+<nav id="menpos">
+  <ul id="menu">
+    <li><a id="menuLogo" href="index.html"><i class="fa fa-apple"> </i></a></li>
+     <li> <a href="pages/history.html">History</a> </li>
+    <li> <a href="#">Founders</a> 
+    <ul class="sousMenu">
+        <li><a href="pages/stevejobs.html">Steve Jobs</a></li>
+        <li><a href="pages/stevewozniak.html">Steve Wozniak</a></li>
+        <li><a href="pages/RonaldWayne.html">Ronald Wayne</a></li>
+      </ul>
+      </li>
+    <li><a href="pages/products.html">Products</a></li>
+    <li><a href="pages/corporateidentity.html">Corporate identity</a></li>
+    <li> <a href="pages/aboutus.html">About Us</a> </li>
+      
+  </ul>
+</nav>
+
+<div id="body-container">
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="images/Apple-Think_Different-Apple-Logo.jpg" style="width:100%" alt="">
+  <img class="mySlides" src="images/macbook-1.gif" style="width:100%" alt="">
+  <img class="mySlides" src="images/macpc1.gif" style="width:100%" alt="">
+  
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+
+
+<div class="divb"> 
+<div class="main-Page-Header-Text"> 
+	<center>
+	  <h1><em class="fa fa-2x fa-apple"></em> Apple</h1>
+	</center>
+</div>
+
+
+
+
+<p align="center">
+Apple Inc. is an American multinational corporation that designs and manufactures consumer electronics and computer software products. The company's best-known hardware products include Macintosh computers, the iPod and the iPhone. Apple software includes the Mac OS X operating system, the iTunes media browser, the iLife suite of multimedia and creativity software, the iWork suite of productivity software, Final Cut Studio, a suite of professional audio and film-industry software products, and Logic Studio, a suite of audio tools. The company operates more than 250 retail stores in nine countries and an online store where hardware and software products are sold.
+​ ​ Apple, Inc. is an electronics and software company based in California, USA. Originally known as Apple Computer, the company is familiar to most people as innovators of the personal computer as it is known today. Apple Computer had introduced many of the now-commonplace features of personal computers, including the GUI, the mouse, the floppy disk drive, and color graphics. Apple Computer's Macintosh line of PC's had brought numerous software and hardware components within reach of the average home consumer, often in a stylish case and with an emphasis on usability. The restructured company, now called simply Apple, designs, markets, and sells not only personal computers but also consumer electronics in the form of portable media players and smartphones. Apple also sells intangible goods in the form of software, music, and video. The Apple Store chain operates over 150 branches worldwide, where the devices and software and sold and serviced.​ Although Apple does distribute software for the Microsoft Windows operating system, this is limited to it's QuickTime media player and iTunes connectivity suite for the iPod. Most of Apple's software revenue comes in the form of optional software for the OS-X operating system, exclusive to Apple's own Macintosh computers. However, software and even computer sales are now only a small part of Apple's operations. The iPod media player is today Apple's main source of revenue, including sales of the player itself and of music and video downloads via the iTunes music store. The recently introduced iPhone is expected to outsell it's production quota, thus making the device both exclusive and expensive. Apple TV, introduced in March 2007, is a controversial device that is not expected to bring much income to Apple, rather, to help secure Apple's foothold in the content distribution market. Other Apple hardware devices, such as the Xserve web- and file-server and the Apple Cinema display, are not intended for home use and make up a negligible portion of Apple's income.
+​
+​
+​ ​</p>
+</div>
+
+
+
+
+
+</div>
+
+</body>
+
+<!-- div that contains the social media element and copyrights-->
+<footer id="footer">
+
+
+<div id="social"><!--social icon-->
+<!--copyright -->
+&copy;Ahmad Hatoum & Hussein Fneish
+<!--facebook icon -->
+<a href="https://www.facebook.com" target="_blank"><img src="images/footer (4).png" title="like on facebook" alt="img_not_found"></a>
+<!--twitter icon-->
+<a href="https://www.twitter.com" target="_blank"><img src="images/footer (3).png" title="like on twitter" alt="img_not_found"></a>
+<!--mail icon-->
+<a href="mailto:ahmad_hatoum.a@hotmail.com or fneishussein@gmail.com" >
+<img src="images/footer (2).png" title="contact me by mail" alt="img_not_found"></a>
+</div>
+
+
+</footer>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</html>

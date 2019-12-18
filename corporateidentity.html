@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/h<ml; charset=utf-8" />
+<!--keywords about my website  -->
+<meta name="keywords" content="apple,Mobiles,Mac,Iphone,IPhoneX,IphoneX,Iphone-X">
+
+
+<!--window name -->
+<title>Apple</title>
+<!--window icon -->
+<link rel="shortcut icon" type="image/x-icon" href="images/apple.png" />
+<link href="../style/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ 
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+<!-- div that contain the menu -->
+<nav id="menpos">
+  <ul id="menu">
+    <li><a id="menuLogo" href="../index.html"><i class="fa fa-apple"> </i></a></li>
+     <li> <a href="history.html">History</a> </li>
+   <li> <a href="#">Founders</a> 
+     <ul class="sousMenu">
+        <li><a href="stevejobs.html">Steve Jobs</a></li>
+        <li><a href="stevewozniak.html">Steve Wozniak</a></li>
+        <li><a href="Ronaldwayne.html">Ronald Wayne</a></li>
+      </ul>
+    </li>
+    <li><a href="products.html">Products</a></li>
+      <li><a href="corporateidentity.html">Corporate Identity</a></li>
+     <li> <a href="aboutus.html">About Us</a> </li>
+   
+  </ul>
+</nav>
+
+
+
+
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="../images/688cb724b19c693f65774b64c62d75c2.jpeg" style="width:100%" alt="">
+  <img class="mySlides" src="../images/Apple-rainbow-logo.jpg" style="width:100%" alt="">
+  <img class="mySlides" src="../images/Apple_2001_blue.png" style="width:100%" alt="">
+  <img class="mySlides" src="../images/applelogo.png" style="width:100%" alt="">
+<img class="mySlides" src="../images/Apple_2003_logo.png" style="width:100%" alt="">
+<img class="mySlides" src="../images/silver-apple-logo.png" style="width:100%" alt="">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+</body>
+
+<!-- div that contains the social media element and copyrights-->
+<footer id="footer">
+
+
+<div id="social"><!--social icon-->
+<!--copyright -->
+&copy;Ahmad Hatoum & Hussein Fneish
+<!--facebook icon -->
+<a href="https://www.facebook.com" target="_blank">
+<img src="../images/footer (4).png" title="like on facebook" alt=""></a>
+<!--twitter icon-->
+<a href="https://www.twitter.com" target="_blank">
+<img src="../images/footer (3).png" title="like on twitter" alt=""></a>
+<!--mail icon-->
+<a href="mailto:ahmad_hatoum.a@hotmail.com or fneishussein@gmail.com" >
+<img src="../images/footer (2).png" title="contact me by mail" alt=""></a>
+</div>
+
+
+</footer>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</html>
